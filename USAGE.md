@@ -22,6 +22,7 @@ sg = sendgrid.SendGridAPIClient(apikey=os.environ.get('SENDGRID_API_KEY'))
 * [CLIENTS](#clients)
 * [CONTACTDB](#contactdb)
 * [DEVICES](#devices)
+* [EMAIL ACTIVITY](#email-activity)
 * [GEO](#geo)
 * [IPS](#ips)
 * [MAIL](#mail)
@@ -1755,6 +1756,21 @@ print response.status_code
 print response.body
 print response.headers
 ```
+
+<a name="email-activity"></a>
+# EMAIL ACTIVITY
+
+## Getting Started With the Email Activity Feed API
+
+**This endpoint allows you to query your messages.**
+
+
+Email Activity Feed allows you to search and download a CSV of your recent email event activity. For more information on how to get started, please see our [Getting Started Guide](https://sendgrid.com/docs/API_Reference/Web_API_v3/Tutorials/getting_started_email_activity_api.html).
+
+
+
+
+
 <a name="geo"></a>
 # GEO
 
