@@ -11,6 +11,9 @@ This directory provides examples for specific use cases of this library. Please 
 * [How to Deploy a simple Flask app, to send Email with SendGrid, on Heroku](flask_heroku.md)
 * [How to Setup a Domain Authentication](domain_authentication.md)
 * [How to View Email Statistics](email_stats.md)
+* [How to Use the Email Activity Feed](email_activity.md)
+
+
 
 ### Working with Mail
 * [Asynchronous Mail Send](asynchronous_mail_send.md)
